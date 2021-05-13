@@ -23,10 +23,14 @@ public class LineComparison {
 		{
 			System.out.println("Both lines are equal");
 		}
+		else if(line1>line2)
+		{
+			System.out.println("Both line1 is greater than line2");
+
+		}
 		else
 		{
-			System.out.println("Both lines are not equal");
-
+			System.out.println("Both line1 is less than line2");
 		}
 	}
 }
